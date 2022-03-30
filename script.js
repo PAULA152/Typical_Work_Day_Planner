@@ -71,9 +71,9 @@ function background() {
         if (hour > timeTest) {
             $(this).css({ "background-color": "#d3d3d3" });
         } else if (hour < timeTest) {
-            $(this).css({ "background-color": "#77dd77" });
+            $(this).css({ "background-color": "#3fda3f" });
         } else {
-            $(this).css({ "background-color": "#ff6961" });
+            $(this).css({ "background-color": "#ff4d43" });
         }
     });
 }
